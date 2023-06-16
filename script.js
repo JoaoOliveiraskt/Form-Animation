@@ -12,7 +12,7 @@ form.addEventListener('click', (e) => {
     const actions = {
         next() {
             if(!isValidInpust()) {
-                //return
+                return
             }
             currentStep++
         },
